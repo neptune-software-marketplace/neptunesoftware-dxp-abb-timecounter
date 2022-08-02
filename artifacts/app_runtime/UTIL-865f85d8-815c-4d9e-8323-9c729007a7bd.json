@@ -1,0 +1,390 @@
+{
+	"id": "865f85d8-815c-4d9e-8323-9c729007a7bd",
+	"createdAt": "2022-02-04T15:51:09.046Z",
+	"updatedAt": "2022-08-02T09:43:10.700Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"changedBy": "kristin.eliassen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "3d070443-853e-42c2-d38a-0085978afaf6",
+			"fieldName": "MainContainerTimer",
+			"fieldParent": 0,
+			"fieldType": "sap.m.HBox",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "styleClassMargin",
+					"grouping": "Properties",
+					"value": "sapUiLargeMarginTop",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "justifyContent",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "70ec4ecc-4389-4032-ee64-5a53d1789c53",
+					"fieldName": "ContentTimer",
+					"fieldParent": "3d070443-853e-42c2-d38a-0085978afaf6",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "countBG",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "justifyContent",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "9108e621-8248-4397-f096-0a2afe1085ba",
+							"fieldName": "txtHours",
+							"fieldParent": "70ec4ecc-4389-4032-ee64-5a53d1789c53",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "00",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "countStyle",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "9e292127-376e-4d13-a6d1-3a3318b60c8a",
+							"fieldName": "dot1",
+							"fieldParent": "70ec4ecc-4389-4032-ee64-5a53d1789c53",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": ":",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "countStyle",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "c613c791-9284-4870-f7fd-0230106bcdc0",
+							"fieldName": "txtMins",
+							"fieldParent": "70ec4ecc-4389-4032-ee64-5a53d1789c53",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "00",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "countStyle",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "62aa3aaa-492f-4b2f-a8f1-2903ed7ba498",
+							"fieldName": "dot2",
+							"fieldParent": "70ec4ecc-4389-4032-ee64-5a53d1789c53",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": ":",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "countStyle",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "04d2b23a-a941-4e27-cae5-27876b536e17",
+							"fieldName": "txtSec",
+							"fieldParent": "70ec4ecc-4389-4032-ee64-5a53d1789c53",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "00",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "countStyle",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "921cd654-1377-40ef-8bcb-cc1a8905d7c0",
+					"fieldName": "BBTimeCounter",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "f0a52946-86dd-4f63-efd8-6d3daac38f6f",
+							"fieldName": "How_to_Use",
+							"fieldParent": "921cd654-1377-40ef-8bcb-cc1a8905d7c0",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"// MainContainerTimer is the Horizontal COntainer can be placed under any UI COntainer",
+								"// ContentTimer is the actual container for the Hours, Minutes and Seconds Text",
+								"// TimeCSSContainer has local styles for the counter",
+								"",
+								"// you can place MainContainerTimer as is inside sap.m.Page or sap.m.Panel and the contents",
+								"// will be aligned to Horizontally Centre",
+								"",
+								"// If you want to use just the Time inside your own container, then use ContentTimer only"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "dafaa225-1047-4ce3-b23a-e820d76b1fab",
+							"fieldName": "TimerCSSContainer",
+							"fieldParent": "921cd654-1377-40ef-8bcb-cc1a8905d7c0",
+							"fieldType": "sap.ui.core.HTML",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "bd9033de-100b-4996-8bf5-0c7a8ea4e345",
+									"fieldName": "htmlStyleTimer",
+									"fieldParent": "dafaa225-1047-4ce3-b23a-e820d76b1fab",
+									"fieldType": "neptune.Html",
+									"script": [
+										"==OBJECT STRING==",
+										"<style type=\"text/css\" media=\"all\">",
+										".countStyle{",
+										"    font-size: 40px !important;",
+										"    /*text-shadow: 2px 2px #636363 !important;*/",
+										"    font-family: monospace !important;",
+										"    color: #fff !important;",
+										"}",
+										"",
+										".countBG{",
+										"   background-color: #000000ba !important;",
+										"}",
+										"</style>"
+									],
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "a5a13158-cf07-45dc-a55b-ae436c36f260",
+							"fieldName": "TimerInit",
+							"fieldParent": "921cd654-1377-40ef-8bcb-cc1a8905d7c0",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"// Initialize Timer",
+								"sap.ui.getCore().attachInit(function(data) {",
+								"",
+								"    setTimeout(function() {",
+								"        ",
+								"        // Increament Time every second",
+								"        var myInterval = setInterval(function() {",
+								"",
+								"            var date = new Date();",
+								"",
+								"            var hour = date.getHours();",
+								"            var min = date.getMinutes();",
+								"            var sec = date.getSeconds();",
+								"",
+								"            if (hour < 10) {",
+								"                txtHours.setText('0' + hour);",
+								"            } else {",
+								"                txtHours.setText(hour);",
+								"            }",
+								"",
+								"            if (min < 10) {",
+								"                txtMins.setText('0' + min);",
+								"            } else {",
+								"                txtMins.setText(min);",
+								"            }",
+								"",
+								"            if (sec < 10) {",
+								"                txtSec.setText('0' + sec);",
+								"            } else {",
+								"                txtSec.setText(sec);",
+								"            }",
+								"",
+								"        }, 1000);",
+								"",
+								"    }, 100);",
+								"",
+								"});"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.8.2.1143",
+	"application": "neptbb_time_counter",
+	"title": "UTIL",
+	"description": "Time Count Display",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"apis": []
+}

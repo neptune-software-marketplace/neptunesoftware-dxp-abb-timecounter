@@ -1,0 +1,47 @@
+{
+	"id": "1C65717D-4712-ED11-BD6E-000D3AB1D9FF",
+	"createdAt": "2022-08-02T09:42:58.496Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-timecounter",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-timecounter",
+	"description": null,
+	"ver": "22.8.2.944",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "865F85D8-815C-4D9E-8323-9C729007A7BD",
+			"ver": "22.8.2.1143",
+			"application": "neptbb_time_counter",
+			"title": "UTIL",
+			"description": "Time Count Display"
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
